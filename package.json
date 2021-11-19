@@ -1,0 +1,19 @@
+{
+  "name": "coding-test",
+  "version": "1.0.0",
+  "description": "This is the repo for coding round for interview process.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniyd/coding-test.git"
+  },
+  "author": "Anirudh Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aniyd/coding-test/issues"
+  },
+  "homepage": "https://github.com/aniyd/coding-test#readme"
+}
