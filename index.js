@@ -1,4 +1,4 @@
-const accountBalanceHistory = [
+const accountBalanceHistory1 = [
     {
         monthNumber: 0, // current month
         account: {
@@ -9,6 +9,27 @@ const accountBalanceHistory = [
         monthNumber: 1, // last month
         account: {
             balance: { amount: 150 },
+        },
+    },
+    {
+        monthNumber: 2, // two months ago
+        account: {
+            balance: { amount: 200 },
+        },
+    }
+];
+
+const accountBalanceHistory2 = [
+    {
+        monthNumber: 0, // current month
+        account: {
+            balance: { amount: 0 },
+        },
+    },
+    {
+        monthNumber: 1, // last month
+        account: {
+            balance: { amount: 100 },
         },
     },
     {
@@ -114,4 +135,7 @@ function accountTypeChecker(accountBalanceHistory) {
     }
 }
 
-init(accountBalanceHistory);
+console.log(`Account history one is of `);
+init(accountBalanceHistory1)
+console.log(`Account history two is of `);
+init(accountBalanceHistory2)
